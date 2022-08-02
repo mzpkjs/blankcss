@@ -1,0 +1,15 @@
+/*
+
+    <div class="spacing:margin(0-0)">
+    <div class="spacing:padding(0-0)">
+    <div class="margin:0-0">
+    <div class="padding:0-0">
+    <div class="spacing:m0-m0">
+    <div class="spacing:p0-p0">
+    <div class="spacing:0-0(margin)">
+    <div class="spacing:0-0(padding)">
+
+    <Box text="blue-300" spacing="padding(3-1) margin(1-1)">
+    <Box text="blue-300" padding="3-1" margin="1-1">
+
+ */

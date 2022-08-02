@@ -1,0 +1,13 @@
+# Global
+node_modules/
+.idea/
+.vscode/
+
+# Packages
+## @blankcss/stylesheets
+**/stylesheets/**.css
+
+
+# Website
+distribution/
+.temp

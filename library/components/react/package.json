@@ -1,0 +1,14 @@
+{
+  "name": "@blankcss/react-components",
+  "version": "0.0.0",
+  "author": "Mateusz Pietrzak",
+  "homepage": "https://blankcss.dev",
+  "repository": "https://github.com/mzpkjs/blankcss",
+  "bugs": "https://github.com/mzpkjs/blankcss/issues",
+  "license": "MIT",
+  "keywords": [
+    "components",
+    "design-system",
+    "react"
+  ]
+}
