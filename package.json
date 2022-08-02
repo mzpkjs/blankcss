@@ -1,9 +1,18 @@
 {
   "private": true,
-  "workspaces": [
-    "./website"
-  ],
+  "name": "website",
+  "type": "module",
   "scripts": {
-    "website:build": "cd ./website  &&  npm run build"
+    "serve": "vitebook dev",
+    "preview": "vitebook preview",
+    "build": "vitebook build"
+  },
+  "devDependencies": {
+    "@vitebook/client": "0.100.5",
+    "@vitebook/core": "0.100.5",
+    "@vitebook/markdown-shiki": "0.100.5",
+    "@vitebook/markdown-svelte": "0.100.5",
+    "@vitebook/theme-default": "0.100.5",
+    "vite": "^3.0.0"
   }
 }

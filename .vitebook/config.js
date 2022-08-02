@@ -6,9 +6,9 @@ import { clientPlugin, defineConfig } from '@vitebook/client/node';
 import { defaultThemePlugin } from '@vitebook/theme-default/node';
 
 export default defineConfig({
-  srcDir: "pages/",
+  srcDir: "website/",
   outDir: "../distribution/",
-  include: ['pages/**/*.md'],
+  include: ['website/**/*.md'],
   plugins: [
     svelteMarkdownPlugin({
       code: {
