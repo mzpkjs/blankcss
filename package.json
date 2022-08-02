@@ -4,6 +4,6 @@
     "./website"
   ],
   "scripts": {
-    "website:build": "cd ../website  &&  npm run build"
+    "website:build": "cd ./website  &&  npm run build"
   }
 }
