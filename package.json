@@ -1,3 +1,9 @@
 {
-  "private": true
+  "private": true,
+  "workspaces": [
+    "./website"
+  ],
+  "scripts": {
+    "website:build": "cd ../website && npm run build"
+  }
 }
